@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandeep Sain | Service Delivery & Technical Support Lead</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#020617;
+  --card:rgba(255,255,255,0.08);
+  --accent:#38bdf8;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{
+  background:linear-gradient(135deg,#020617,#020617);
+  color:var(--text);
+  scroll-behavior:smooth;
+}
+
+/* NAV */
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(2,6,23,0.92);
+  backdrop-filter:blur(12px);
+  padding:15px 10%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+}
+nav .logo{color:var(--accent);font-weight:600}
+nav ul{list-style:none;display:flex;gap:22px}
+nav ul li a{
+  color:var(--text);
+  text-decoration:none;
+  font-size:0.9rem;
+}
+nav ul li a:hover{color:var(--accent)}
+
+/* SECTIONS */
+section{padding:120px 10%}
+h2{
+  font-size:2.3rem;
+  text-align:center;
+  margin-bottom:45px;
+  color:var(--accent);
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+}
+.hero-text h1{font-size:3.4rem}
+.hero-text span{color:var(--accent)}
+.hero-text p{margin-top:10px;color:var(--muted)}
+.hero-info{
+  margin-top:25px;
+  font-size:0.95rem;
+  color:var(--muted);
+}
+.hero-photo img{
+  width:280px;
+  height:280px;
+  object-fit:cover;
+  border-radius:50%;
+  border:4px solid rgba(56,189,248,0.4);
+  box-shadow:0 0 45px rgba(56,189,248,0.35);
+}
+
+/* CARD */
+.card{
+  background:var(--card);
+  border-radius:18px;
+  padding:36px;
+  margin-bottom:30px;
+  box-shadow:0 0 30px rgba(0,0,0,0.45);
+  transition:.4s;
+}
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 0 40px rgba(56,189,248,0.3);
+}
+
+/* EXPERIENCE */
+.timeline{display:grid;gap:34px}
+.timeline h3{color:#fff}
+.timeline small{color:var(--muted)}
+
+/* SKILLS */
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+.skill{
+  background:var(--card);
+  padding:24px;
+  border-radius:16px;
+  transition:.4s;
+}
+.skill:hover{
+  background:rgba(56,189,248,0.12);
+  transform:scale(1.03);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px;
+  background:#020617;
+  font-size:.85rem;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Sandeep Sain</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#expertise">Expertise</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Training & Certifications</a></li>
+    <li><a href="#languages">Languages</a></li>
+  </ul>
+</nav>
+
+<!-- HOME / HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Sandeep <span>Sain</span></h1>
+    <p>German Language | Service Delivery & Technical Support Lead | GenAI Automation</p>
+    <div class="hero-info">
+      📍 Sri Ganganagar, Rajasthan, India<br>
+      📧 sandeep.sain1989@gmail.com<br>
+      📱 +91 7899425623<br>
+      💼 Microsoft Teams: <b>SANDEEP SAIN</b><br>
+      🔗 <a href="https://www.linkedin.com/in/sandeep-sain-1a972b55/" target="_blank" style="color:#38bdf8">LinkedIn Profile</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="./professional_Photo.png" alt="Sandeep Sain">
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile">
+<h2>Profile</h2>
+<div class="card">
+Service Delivery and Technical Support Lead with <b>16.5+ years of experience</b> supporting
+German-speaking enterprise customers across PBX, VOIP, SIP, Cloud Telephony and UC platforms.
+Expert in ITIL-based service operations, escalation management, process transitions,
+cross-functional team leadership, and GenAI-driven service automation.
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Professional Experience</h2>
+<div class="timeline">
+
+<div class="card">
+<h3>Mitel Communications Private Limited</h3>
+<small>Senior Member of Technical Staff – Voice | Service Delivery-DACH region | 2016 – 2025</small>
+<p>
+Managed end-to-end IT service delivery for MIVO400 PBX, R&D Labs, VoIP, SIP, and Cloud Telephony with 100% SLA compliance. 
+Improved customer satisfaction for German-speaking enterprises, reduced repeat incidents through analytics, 
+led high-performing teams, resolved critical escalations, and executed successful European process transitions 
+ensuring service continuity. Provided Level-3 technical support for Mitel PBX controllers, virtual appliances,
+Server-Manager, SIP, IP DECT and Cloud Telephony platforms. Led service delivery, handled critical escalations,
+performed RCA, supported international process transitions (Switzerland- Solothurn) and European client engagements, and enabled continuous service improvement.
+</p>
+</div>
+
+<div class="card">
+<h3>Microland Limited</h3>
+<small>Senior Team Lead – Voice | Service Delivery-DACH region | 2015 – 2016</small>
+<p>
+Managed German enterprise client communications, handled access and router-related issues,
+governed SLA compliance, asset management and ticketing using BMC Remedy. Delivered IT services for German infrastructure clients with strict SLA and KPI compliance across router, access, and infrastructure tickets. Improved first-response time by 18% through process optimization and service governance. Managed escalations, reporting, and client feedback while ensuring customer-centric, best-practice-driven service delivery.
+</p>
+</div>
+
+<div class="card">
+<h3>Sonim Technologies India Pvt Ltd</h3>
+<small>German Technical Support Lead – BPO Operations-DACH region | 2013 – 2015</small>
+<p>
+Delivered SLA-driven, customer-centric support for German-speaking clients within BPO operations. Performed trend analysis to reduce recurring issues by 18%, managed high-priority escalations, and collaborated with cross-functional teams to improve resolution efficiency, service quality, and overall customer satisfaction. Delivered technical support for German, Swiss and Austrian customers,
+translated technical documentation, participated in device testing,
+and managed global BPO operations.
+</p>
+</div>
+
+<div class="card">
+<h3>Siemens (Atos), Genpact & TCS</h3>
+<small>German Language Expert & Process Transition-DACH region | 2009 – 2013</small>
+<p>
+Supported Siemens HiPath PBX and VoIP services for German-speaking clients, ensuring SLA-compliant incident resolution. Improved ticket turnaround through effective knowledge-base usage and monitoring. Delivered German-language reporting, change support, and client communication. Supported process transitions from Germany and Hungary, ensuring service quality, documentation accuracy, and operational consistency Supported Hipath3000 PBX systems operations, market research reporting,
+supported international process transitions (Europe- Frankfurt & Budapest) and European client engagements.
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- EXPERTISE -->
+<section id="expertise">
+<h2>Expertise</h2>
+<div class="skills">
+  <div class="skill">Service Delivery & ITIL Operations</div>
+  <div class="skill">PBX, VOIP, SIP & Cloud Telephony</div>
+  <div class="skill">German Enterprise Support (B2.2)</div>
+  <div class="skill">Major Incident & Escalation Management</div>
+  <div class="skill">GenAI Automation & AI Service Agents</div>
+  <div class="skill">AI-Assisted RCA & Documentation</div>
+  <div class="skill">Process Transition & Stabilization</div>
+  <div class="skill">Wireshark & SIP Trace Analysis</div>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+BA Honours Degree – Bikaner University (2005–2008)<br>
+German Language Certifications – Max Mueller Bhavan (A1–B2.2)
+</div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+<h2>Professional Training & Certifications</h2>
+<div class="card">
+ITIL® Foundation & Intermediate (SO, ST)<br>
+PRINCE2® Foundation & Practitioner<br>
+Networking for VOIP, SIP & Cloud Telephony<br>
+MiVoice Office 400 Technical Training (Mitel)<br>
+Mitel Standard Linux, Wireshark, PUTTY, SIP Trace Analysis<br>
+GenAI & Automation Tools (ChatGPT, Gemini, Claude, Copilot)
+</div>
+</section>
+
+<!-- LANGUAGES -->
+<section id="languages">
+<h2>Languages</h2>
+<div class="card">
+German – Fluent (Certified B2.2)<br>
+English – Fluent<br>
+Hindi – Native
+</div>
+</section>
+
+<footer>
+© 2025 Sandeep Sain | Service Delivery & Technical Support Lead
+</footer>
+
+</body>
+</html>
